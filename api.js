@@ -1,14 +1,14 @@
 // API配置
 const COZE_CONFIG = {
     url: 'https://api.coze.cn/v3/chat',
-    token: process.env.COZE_TOKEN || 'pat_owL8mXroakuymBvJFPOJ0vRAWnqwXkx510fxeFivvAgdEE5zEIG1BzLUgtkAhmoc',
-    botId: process.env.COZE_BOT_ID || '7463319246924480512',
-    userId: process.env.COZE_USER_ID || '123456789'
+    token: 'pat_owL8mXroakuymBvJFPOJ0vRAWnqwXkx510fxeFivvAgdEE5zEIG1BzLUgtkAhmoc',
+    botId: '7463319246924480512',
+    userId: '123456789'
 };
 
 const GLM_CONFIG = {
     url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
-    apiKey: process.env.GLM_API_KEY || 'd014614670254576a1bb469f3924f2db.BxVhT99E6Cc6gNYP'
+    apiKey: 'd014614670254576a1bb469f3924f2db.BxVhT99E6Cc6gNYP'
 };
 
 // 生成道歉语
