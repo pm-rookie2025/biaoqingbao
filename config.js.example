@@ -1,0 +1,14 @@
+// API配置示例文件
+const COZE_CONFIG = {
+    url: 'https://api.coze.cn/v3/chat',
+    token: 'your_coze_token_here',
+    botId: 'your_bot_id_here',
+    userId: 'your_user_id_here'
+};
+
+const GLM_CONFIG = {
+    url: 'https://open.bigmodel.cn/api/paas/v4/chat/completions',
+    apiKey: 'your_glm_api_key_here'
+};
+
+export { COZE_CONFIG, GLM_CONFIG };

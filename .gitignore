@@ -21,3 +21,6 @@ yarn-error.log*
 .env
 .env.local
 .env.*.local
+
+# 配置文件
+config.js
